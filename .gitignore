@@ -1,0 +1,29 @@
+# Secrets
+.env
+!.env.example
+
+# Dependencies / virtual envs
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+.snapshot-build/
+
+# Data snapshots and caches (contain business data - never commit)
+dashboard/backend/.cache/
+dashboard/exports/
+Target Dashboard - *.html
+*.pkl
+
+# Logs
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

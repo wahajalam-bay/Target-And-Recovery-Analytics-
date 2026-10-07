@@ -1,0 +1,8 @@
+{
+  "_comment": "Verified payments that Propone shows on a booking but whose booking link row is missing from the Redshift copy (no polaris_bookings_payments / polaris_adjusted_installments row). Each entry is used only while Redshift still has no link for that payment; once the real link arrives the entry is ignored automatically. Key = polaris_payments.id.",
+  "75703": {
+    "booking_number": "DTR-5169",
+    "installment_name": "Installment 11",
+    "source": "Propone payment screen, TID # (912594259), deposited 15 Sep 2026, 54,450, Verified; confirmed by the business on 29 Sep 2026"
+  }
+}

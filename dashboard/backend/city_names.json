@@ -1,0 +1,10 @@
+{
+  "_comment": "Display names for polaris_projects.city_id (Propone has no readable city table; ids are never shown). _merge maps a city id onto another so both count as one region.",
+  "85572": "Lahore",
+  "85475": "North",
+  "85623": "Multan",
+  "85683": "Pindi (merged into North)",
+  "_merge": {
+    "85683": "85475"
+  }
+}
